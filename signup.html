@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <!-- <div>
+            <img class="hamburger-btn flexcenter" src="./images/svg.svg" alt="svg">
+        </div> -->
+        <div>
+           <a href="index.html"> <img src="./images/nova logoz.png" alt="nova-logo" id="logo"></a>
+        </div><div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+            <ul class="nav-ul1 flexcenter nav-links" id="nav-links">
+                <li class="dropdown-item-parent flexcenter"><p id="parent-item">Features</p>
+                    <ul class="sub-menu-item">
+                        <li class="items"><a href="novacard.html"><img src="./images/debit card.png" alt="debit-card">Nova Card</a></li>
+                        <li class="items"><a href="spend.html"><img src="./images/spend money.png" alt="spend-your-money"> Spend</a></li>
+                        <li class="items"><a href="save.html"><img src="./images/save 8.png" alt="see-where-your-money-is-going">Save</a></li>
+                        <li class="items"><a href="budget.html"><img src="./images/send money.png" alt="send-money" height="30px" width="30px"> Budget</a></li>
+                        <li class="items"><a href="borrow.html"><img src="./images/dollar icon.png" alt="save-money">Borrow</a></li>
+                    </ul>
+                </li>
+                <li><p id="parent-item"><a href="business.html">Business </a><button style="color:rgb(255,69,0); border-radius: 3px; border: none;">Beta</button></li></p>  
+                <li class="dropdown-item-parent flexcenter"><p id="parent-item">Company</p>
+                    <ul  class="sub-menu-item">
+                        <li class="items"><a href="blog.html">Blog</a></li>
+                        <li class="items"><a href="press.html">Press</a></li>
+                        <li class="items"><a href="join.html">Join our team</a></li>
+                        <li class="items"><a href="about.html">About us</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-item-parent flexcenter"><p id="parent-item">Help</p>
+                    <ul  class="sub-menu-item">
+                        <li class="items"><a href="help.html">Get Help</a></li>
+                        <li class="items"><a href="faqs.html">FAQs</a></li>
+                        <li class="items"><a href="security.html">Security</a></li>
+                        <li class="items"><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </li>
+                <li><a id="parent-item2" href="signin.html">Sign In</a></li>
+               <li><a href="signup.html"><button class="nova-btn">Get Nova</button></a></li>
+            </ul>
+            <!-- <ul class="nav-ul2 flexcenter">
+               <li><a href="">Sign In</a></li>
+               <li><a href=""><button class="nova-btn">Get Nova</button></a></li>
+            </ul> -->
+            <ul id="drop-container" class="flexcenter nav-links">
+                <li><a href=""><img src="./images/Nova Bank imgs/nigeria flag.png" alt="nigeria flag" height="30px" width="30px"><a> </li>
+                    <ul class="drop-content">
+                <li><img src="./images/Nova Bank imgs/country list.png" alt="country-list"></li>
+            </ul>  
+            </ul>
+        </nav>
+        <section>
+         <div class="form-img-container">
+             <div>
+                <div class="first-p">
+               <P>
+                    Please, check your browser’s address bar to be sure you’re on <span style="color:rgb(255,69,0);">https://app.novabank.com</span>
+                </P>
+            
+             </div>
+             <div class="reg-form">
+                 <h4>Get a Nova account now</h4>
+                 <hr id="h-rule">
+                 <hr id="h-rule">
+                <p>To sign up, please type in a valid email address</p>
+                <form action="" method="post">
+                    <label for="Full Name" id="label-text" >Full Name:</label><br>
+                    <input type="text" placeholder="firstname lastname" required><br>
+                    <label for="phone number"id="label-text">Phone Number:</label><br>                 
+                    <input type="number" placeholder="enter phone number" required><br>
+                  <label for="Email Address" id="label-text">Email Address:</label><br>
+                  <input type="email" placeholder="email@gmail.com" required><br>
+                  <label for="password" id="label-text">Password:</label><br>
+                  <input type="password" placeholder="************" required>
+                  <p>Forgot password? <span style="color:rgb(255,69,0);">Reset it.</span></p>
+                  <p>Already have an account? Sign in  <a href="signin.html"><span style="color:rgb(255,69,0);">here</span></a></p>
+                  <button id="reg-btn"><a style="color: white; text-decoration: none;" href="">Create Account</a></button>
+                </form> 
+               </div>
+             </div>
+             <div>
+                <img class="animate__animated animate__backInRight" src="./images/Nova Bank 6/Mobile login removebg-preview.png" alt="woman-trying-to-login-on-mobile" height="280px" width="350px">
+             </div>
+         </div>
+        </section>
+        <script src="script.js"></script>
+</body>
+</html>
